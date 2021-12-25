@@ -1,0 +1,613 @@
+{
+  "contractName": "datingValues",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DatingValues.sol\":\"datingValues\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DatingValues.sol\":{\"keccak256\":\"0x9635d417ff78407d8709e8d0ca7d7807bfe945df67a811ef5cf25762732a6da4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://183c1f1ba3811d1a7fa55a46842587d4592db4193257d1e3569b510e0e5b1e45\",\"dweb:/ipfs/QmQ9Yh42U8x73WTZ5zUhS3p3pKiSRMp9fq7cJ7KoXuC6My\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122096b40cfd0e17d8565d5759f32fc15ac7015fb47dbaf74fbb3e96d8cfb7cab4f964736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122096b40cfd0e17d8565d5759f32fc15ac7015fb47dbaf74fbb3e96d8cfb7cab4f964736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:794:11:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:794:11:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract datingValues {\n\n   enum Values {\n        Forgiveness,\n        Friendship,\n        Laughter,\n        Joy,\n        Communication,\n        Respect,\n        Loyalty,\n        Compassion,\n        Growth,\n        Connection,\n        Balance,\n        Secure,\n        Support,\n        Reassurance,\n        Intimacy,\n        Protection,\n        Care,\n        Appreciation,\n        Ease,\n        Adventure,\n        Reciprocity,\n        Safe,\n        Openness,\n        Flow,\n        Acceptance,\n        Empowerment,\n        Empathy,\n        Admiration,\n        Understanding,\n        Authenticity,\n        Collaboration,\n        Awareness,\n        Listening,\n        Energizing,\n        PositiveThinking,\n        Creation,\n        Attraction,\n        Fun,\n        Trust,\n        Commitment\n   }\n\n}\n",
+  "sourcePath": "/Users/nicktaras/Documents/github/blockchain-developer-bootcamp-final-project/contracts/DatingValues.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/DatingValues.sol",
+    "exportedSymbols": {
+      "datingValues": [
+        2267
+      ]
+    },
+    "id": 2268,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2225,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2267,
+        "linearizedBaseContracts": [
+          2267
+        ],
+        "name": "datingValues",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "datingValues.Values",
+            "id": 2266,
+            "members": [
+              {
+                "id": 2226,
+                "name": "Forgiveness",
+                "nodeType": "EnumValue",
+                "src": "107:11:11"
+              },
+              {
+                "id": 2227,
+                "name": "Friendship",
+                "nodeType": "EnumValue",
+                "src": "128:10:11"
+              },
+              {
+                "id": 2228,
+                "name": "Laughter",
+                "nodeType": "EnumValue",
+                "src": "148:8:11"
+              },
+              {
+                "id": 2229,
+                "name": "Joy",
+                "nodeType": "EnumValue",
+                "src": "166:3:11"
+              },
+              {
+                "id": 2230,
+                "name": "Communication",
+                "nodeType": "EnumValue",
+                "src": "179:13:11"
+              },
+              {
+                "id": 2231,
+                "name": "Respect",
+                "nodeType": "EnumValue",
+                "src": "202:7:11"
+              },
+              {
+                "id": 2232,
+                "name": "Loyalty",
+                "nodeType": "EnumValue",
+                "src": "219:7:11"
+              },
+              {
+                "id": 2233,
+                "name": "Compassion",
+                "nodeType": "EnumValue",
+                "src": "236:10:11"
+              },
+              {
+                "id": 2234,
+                "name": "Growth",
+                "nodeType": "EnumValue",
+                "src": "256:6:11"
+              },
+              {
+                "id": 2235,
+                "name": "Connection",
+                "nodeType": "EnumValue",
+                "src": "272:10:11"
+              },
+              {
+                "id": 2236,
+                "name": "Balance",
+                "nodeType": "EnumValue",
+                "src": "292:7:11"
+              },
+              {
+                "id": 2237,
+                "name": "Secure",
+                "nodeType": "EnumValue",
+                "src": "309:6:11"
+              },
+              {
+                "id": 2238,
+                "name": "Support",
+                "nodeType": "EnumValue",
+                "src": "325:7:11"
+              },
+              {
+                "id": 2239,
+                "name": "Reassurance",
+                "nodeType": "EnumValue",
+                "src": "342:11:11"
+              },
+              {
+                "id": 2240,
+                "name": "Intimacy",
+                "nodeType": "EnumValue",
+                "src": "363:8:11"
+              },
+              {
+                "id": 2241,
+                "name": "Protection",
+                "nodeType": "EnumValue",
+                "src": "381:10:11"
+              },
+              {
+                "id": 2242,
+                "name": "Care",
+                "nodeType": "EnumValue",
+                "src": "401:4:11"
+              },
+              {
+                "id": 2243,
+                "name": "Appreciation",
+                "nodeType": "EnumValue",
+                "src": "415:12:11"
+              },
+              {
+                "id": 2244,
+                "name": "Ease",
+                "nodeType": "EnumValue",
+                "src": "437:4:11"
+              },
+              {
+                "id": 2245,
+                "name": "Adventure",
+                "nodeType": "EnumValue",
+                "src": "451:9:11"
+              },
+              {
+                "id": 2246,
+                "name": "Reciprocity",
+                "nodeType": "EnumValue",
+                "src": "470:11:11"
+              },
+              {
+                "id": 2247,
+                "name": "Safe",
+                "nodeType": "EnumValue",
+                "src": "491:4:11"
+              },
+              {
+                "id": 2248,
+                "name": "Openness",
+                "nodeType": "EnumValue",
+                "src": "505:8:11"
+              },
+              {
+                "id": 2249,
+                "name": "Flow",
+                "nodeType": "EnumValue",
+                "src": "523:4:11"
+              },
+              {
+                "id": 2250,
+                "name": "Acceptance",
+                "nodeType": "EnumValue",
+                "src": "537:10:11"
+              },
+              {
+                "id": 2251,
+                "name": "Empowerment",
+                "nodeType": "EnumValue",
+                "src": "557:11:11"
+              },
+              {
+                "id": 2252,
+                "name": "Empathy",
+                "nodeType": "EnumValue",
+                "src": "578:7:11"
+              },
+              {
+                "id": 2253,
+                "name": "Admiration",
+                "nodeType": "EnumValue",
+                "src": "595:10:11"
+              },
+              {
+                "id": 2254,
+                "name": "Understanding",
+                "nodeType": "EnumValue",
+                "src": "615:13:11"
+              },
+              {
+                "id": 2255,
+                "name": "Authenticity",
+                "nodeType": "EnumValue",
+                "src": "638:12:11"
+              },
+              {
+                "id": 2256,
+                "name": "Collaboration",
+                "nodeType": "EnumValue",
+                "src": "660:13:11"
+              },
+              {
+                "id": 2257,
+                "name": "Awareness",
+                "nodeType": "EnumValue",
+                "src": "683:9:11"
+              },
+              {
+                "id": 2258,
+                "name": "Listening",
+                "nodeType": "EnumValue",
+                "src": "702:9:11"
+              },
+              {
+                "id": 2259,
+                "name": "Energizing",
+                "nodeType": "EnumValue",
+                "src": "721:10:11"
+              },
+              {
+                "id": 2260,
+                "name": "PositiveThinking",
+                "nodeType": "EnumValue",
+                "src": "741:16:11"
+              },
+              {
+                "id": 2261,
+                "name": "Creation",
+                "nodeType": "EnumValue",
+                "src": "767:8:11"
+              },
+              {
+                "id": 2262,
+                "name": "Attraction",
+                "nodeType": "EnumValue",
+                "src": "785:10:11"
+              },
+              {
+                "id": 2263,
+                "name": "Fun",
+                "nodeType": "EnumValue",
+                "src": "805:3:11"
+              },
+              {
+                "id": 2264,
+                "name": "Trust",
+                "nodeType": "EnumValue",
+                "src": "818:5:11"
+              },
+              {
+                "id": 2265,
+                "name": "Commitment",
+                "nodeType": "EnumValue",
+                "src": "833:10:11"
+              }
+            ],
+            "name": "Values",
+            "nodeType": "EnumDefinition",
+            "src": "85:763:11"
+          }
+        ],
+        "scope": 2268,
+        "src": "57:794:11"
+      }
+    ],
+    "src": "32:820:11"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/DatingValues.sol",
+    "exportedSymbols": {
+      "datingValues": [
+        2267
+      ]
+    },
+    "id": 2268,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2225,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2267,
+        "linearizedBaseContracts": [
+          2267
+        ],
+        "name": "datingValues",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "datingValues.Values",
+            "id": 2266,
+            "members": [
+              {
+                "id": 2226,
+                "name": "Forgiveness",
+                "nodeType": "EnumValue",
+                "src": "107:11:11"
+              },
+              {
+                "id": 2227,
+                "name": "Friendship",
+                "nodeType": "EnumValue",
+                "src": "128:10:11"
+              },
+              {
+                "id": 2228,
+                "name": "Laughter",
+                "nodeType": "EnumValue",
+                "src": "148:8:11"
+              },
+              {
+                "id": 2229,
+                "name": "Joy",
+                "nodeType": "EnumValue",
+                "src": "166:3:11"
+              },
+              {
+                "id": 2230,
+                "name": "Communication",
+                "nodeType": "EnumValue",
+                "src": "179:13:11"
+              },
+              {
+                "id": 2231,
+                "name": "Respect",
+                "nodeType": "EnumValue",
+                "src": "202:7:11"
+              },
+              {
+                "id": 2232,
+                "name": "Loyalty",
+                "nodeType": "EnumValue",
+                "src": "219:7:11"
+              },
+              {
+                "id": 2233,
+                "name": "Compassion",
+                "nodeType": "EnumValue",
+                "src": "236:10:11"
+              },
+              {
+                "id": 2234,
+                "name": "Growth",
+                "nodeType": "EnumValue",
+                "src": "256:6:11"
+              },
+              {
+                "id": 2235,
+                "name": "Connection",
+                "nodeType": "EnumValue",
+                "src": "272:10:11"
+              },
+              {
+                "id": 2236,
+                "name": "Balance",
+                "nodeType": "EnumValue",
+                "src": "292:7:11"
+              },
+              {
+                "id": 2237,
+                "name": "Secure",
+                "nodeType": "EnumValue",
+                "src": "309:6:11"
+              },
+              {
+                "id": 2238,
+                "name": "Support",
+                "nodeType": "EnumValue",
+                "src": "325:7:11"
+              },
+              {
+                "id": 2239,
+                "name": "Reassurance",
+                "nodeType": "EnumValue",
+                "src": "342:11:11"
+              },
+              {
+                "id": 2240,
+                "name": "Intimacy",
+                "nodeType": "EnumValue",
+                "src": "363:8:11"
+              },
+              {
+                "id": 2241,
+                "name": "Protection",
+                "nodeType": "EnumValue",
+                "src": "381:10:11"
+              },
+              {
+                "id": 2242,
+                "name": "Care",
+                "nodeType": "EnumValue",
+                "src": "401:4:11"
+              },
+              {
+                "id": 2243,
+                "name": "Appreciation",
+                "nodeType": "EnumValue",
+                "src": "415:12:11"
+              },
+              {
+                "id": 2244,
+                "name": "Ease",
+                "nodeType": "EnumValue",
+                "src": "437:4:11"
+              },
+              {
+                "id": 2245,
+                "name": "Adventure",
+                "nodeType": "EnumValue",
+                "src": "451:9:11"
+              },
+              {
+                "id": 2246,
+                "name": "Reciprocity",
+                "nodeType": "EnumValue",
+                "src": "470:11:11"
+              },
+              {
+                "id": 2247,
+                "name": "Safe",
+                "nodeType": "EnumValue",
+                "src": "491:4:11"
+              },
+              {
+                "id": 2248,
+                "name": "Openness",
+                "nodeType": "EnumValue",
+                "src": "505:8:11"
+              },
+              {
+                "id": 2249,
+                "name": "Flow",
+                "nodeType": "EnumValue",
+                "src": "523:4:11"
+              },
+              {
+                "id": 2250,
+                "name": "Acceptance",
+                "nodeType": "EnumValue",
+                "src": "537:10:11"
+              },
+              {
+                "id": 2251,
+                "name": "Empowerment",
+                "nodeType": "EnumValue",
+                "src": "557:11:11"
+              },
+              {
+                "id": 2252,
+                "name": "Empathy",
+                "nodeType": "EnumValue",
+                "src": "578:7:11"
+              },
+              {
+                "id": 2253,
+                "name": "Admiration",
+                "nodeType": "EnumValue",
+                "src": "595:10:11"
+              },
+              {
+                "id": 2254,
+                "name": "Understanding",
+                "nodeType": "EnumValue",
+                "src": "615:13:11"
+              },
+              {
+                "id": 2255,
+                "name": "Authenticity",
+                "nodeType": "EnumValue",
+                "src": "638:12:11"
+              },
+              {
+                "id": 2256,
+                "name": "Collaboration",
+                "nodeType": "EnumValue",
+                "src": "660:13:11"
+              },
+              {
+                "id": 2257,
+                "name": "Awareness",
+                "nodeType": "EnumValue",
+                "src": "683:9:11"
+              },
+              {
+                "id": 2258,
+                "name": "Listening",
+                "nodeType": "EnumValue",
+                "src": "702:9:11"
+              },
+              {
+                "id": 2259,
+                "name": "Energizing",
+                "nodeType": "EnumValue",
+                "src": "721:10:11"
+              },
+              {
+                "id": 2260,
+                "name": "PositiveThinking",
+                "nodeType": "EnumValue",
+                "src": "741:16:11"
+              },
+              {
+                "id": 2261,
+                "name": "Creation",
+                "nodeType": "EnumValue",
+                "src": "767:8:11"
+              },
+              {
+                "id": 2262,
+                "name": "Attraction",
+                "nodeType": "EnumValue",
+                "src": "785:10:11"
+              },
+              {
+                "id": 2263,
+                "name": "Fun",
+                "nodeType": "EnumValue",
+                "src": "805:3:11"
+              },
+              {
+                "id": 2264,
+                "name": "Trust",
+                "nodeType": "EnumValue",
+                "src": "818:5:11"
+              },
+              {
+                "id": 2265,
+                "name": "Commitment",
+                "nodeType": "EnumValue",
+                "src": "833:10:11"
+              }
+            ],
+            "name": "Values",
+            "nodeType": "EnumDefinition",
+            "src": "85:763:11"
+          }
+        ],
+        "scope": 2268,
+        "src": "57:794:11"
+      }
+    ],
+    "src": "32:820:11"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-12-19T10:52:48.972Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
